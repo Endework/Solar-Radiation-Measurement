@@ -7,7 +7,7 @@ import streamlit as st
 st.set_page_config(page_title="Solar dashboard",page_icon=":bar_chart:", layout="wide")
 
    
-df=pd.read_csv('./all_data.csv')
+df=pd.read_csv(r'C:\Users\ende\Desktop\Dashboard\Solar-Radiation-Measurement\Dashboard\all_data.csv')
 
 # Sidebar filter
 Country = st.sidebar.multiselect(
